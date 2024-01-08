@@ -23,6 +23,8 @@ module half_Adder_structural(a,b,s,c
 output s,c;
 input a,b;
 xor uut(s,a,b);
+
+    
 and uut1(c,a,b);
 
 endmodule
